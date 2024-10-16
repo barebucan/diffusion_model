@@ -28,11 +28,3 @@ This script implements a diffusion model with classifier guidance, trained on im
 - **Classifier-Guided Sampling**: Enhances the quality of generated samples by integrating class-specific gradients from a pre-trained classifier.
 - **Training Resolution**: The model is specifically trained on images with a resolution of 3x96x96, allowing for high-quality image generation.
 
-## Installation
-
-To use this repository, clone it to your local machine and install the necessary dependencies:
-
-```bash
-git clone <repository-url>
-cd <repository-directory>
-pip install -r requirements.txt
